@@ -1,4 +1,4 @@
-site_name: Decred Documentation
+site_name: Decred 中文文档库
 theme:
   name: material
   favicon: 'img/favicon.ico?v=s3ss'
@@ -38,8 +38,8 @@ extra:
     - icon: fontawesome/brands/weibo
       link: https://weibo.com/DecredProject
       name: Weibo
-repo_url: https://github.com/decred/dcrdocs
-repo_name: decred/dcrdocs
+repo_url: https://github.com/decred-cn/dcrdocs
+repo_name: decred-cn/dcrdocs
 markdown_extensions:
   - markdown.extensions.footnotes
   - markdown.extensions.smarty
@@ -66,82 +66,82 @@ plugins:
   - markdownextradata
   - search
 nav:
-- 'Home': 'index.md'
-- Getting Started:
-  - "Beginner's Guide": 'getting-started/beginner-guide.md'
-  - 'Obtaining DCR': 'getting-started/obtaining-dcr.md'
-  - 'Using the Block Explorer': 'getting-started/using-the-block-explorer.md'
-  - 'Joining Matrix': 'getting-started/joining-matrix-channels.md'
-  - 'Articles & Media': 'getting-started/articles-and-media.md'
-- Governance:
-  - 'Overview': 'governance/overview.md'
-  - Politeia:
-    - 'Overview': 'governance/politeia/overview.md'
-    - 'Proposal Guidelines': 'governance/politeia/proposal-guidelines.md'
-    - 'Example Proposals': 'governance/politeia/example-proposals.md'
-    - 'Censorship': 'governance/politeia/politeia-censorship.md'
-  - Consensus Rule Voting:
-    - 'Overview': 'governance/consensus-rule-voting/overview.md'
-    - 'How to Vote': 'governance/consensus-rule-voting/how-to-vote.md'
-    - 'Verifying Votes': 'governance/consensus-rule-voting/verifying-votes.md'
-    - 'Consensus Vote Archive': 'governance/consensus-rule-voting/consensus-vote-archive.md'
-  - 'Decred Constitution': 'governance/decred-constitution.md'
-- Wallets:
+- '总览': 'index.md'
+- 入门:
+  - "新手指导": 'getting-started/beginner-guide.md'
+  - '获得 DCR': 'getting-started/obtaining-dcr.md'
+  - '使用区块浏览器': 'getting-started/using-the-block-explorer.md'
+  - '加入 Matrix': 'getting-started/joining-matrix-channels.md'
+  - '文章和媒体': 'getting-started/articles-and-media.md'
+- 治理:
+  - '总览': 'governance/overview.md'
+  - Politeia投票（链下）:
+    - '总览': 'governance/politeia/overview.md'
+    - '提案指导': 'governance/politeia/proposal-guidelines.md'
+    - '举例提案': 'governance/politeia/example-proposals.md'
+    - '审查制度': 'governance/politeia/politeia-censorship.md'
+  - 共识规则投票（链上）:
+    - '总览': 'governance/consensus-rule-voting/overview.md'
+    - '如何投票': 'governance/consensus-rule-voting/how-to-vote.md'
+    - '验证投票': 'governance/consensus-rule-voting/verifying-votes.md'
+    - '共识投票归档': 'governance/consensus-rule-voting/consensus-vote-archive.md'
+  - 'Decred 宪法': 'governance/decred-constitution.md'
+- 钱包:
     - Decrediton (GUI):
-      - 'Decrediton Setup': 'wallets/decrediton/decrediton-setup.md'
-      - 'Using Decrediton': 'wallets/decrediton/using-decrediton.md'
-      - 'Upgrading Decrediton': 'wallets/decrediton/upgrading-decrediton.md'
-      - 'Trezor Wallets': 'wallets/decrediton/trezor.md'
-      - 'Troubleshooting Problems': 'wallets/decrediton/decrediton-troubleshooting.md'
-    - CLI Wallet:
-      - 'Installation': 'wallets/cli/cli-installation.md'
-      - 'OS Differences': 'wallets/cli/os-differences.md'
-      - 'Startup Basics': 'wallets/cli/startup-basics.md'
-      - 'dcrd Setup': 'wallets/cli/dcrd-setup.md'
-      - 'dcrwallet Setup': 'wallets/cli/dcrwallet-setup.md'
-      - 'dcrctl Basics': 'wallets/cli/dcrctl-basics.md'
-      - 'Buying Tickets': 'wallets/cli/dcrwallet-tickets.md'
-      - 'dcrd and dcrwallet CLI Arguments': 'wallets/cli/dcrd-and-dcrwallet-cli-arguments.md'
-      - 'dcrctl RPC Commands': 'wallets/cli/dcrctl-rpc-commands.md'
-    - 'SPV': 'wallets/spv.md'
-    - 'Hardware Wallets': 'wallets/hardware-wallets.md'
-    - 'Mobile Wallets': 'wallets/mobile-wallets.md'
-- Proof-of-Stake Voting:
-  - "Overview": 'proof-of-stake/overview.md'
-  - "How to Stake": 'proof-of-stake/how-to-stake.md'
-  - "Redeem Script": 'proof-of-stake/redeem-script.md'
-  - "Ticket Splitting": 'proof-of-stake/ticket-splitting.md'
-- Proof-of-Work Mining:
-  - 'Overview': 'mining/overview.md'
-  - 'gominer Pool Mining': 'mining/proof-of-work/pool-mining/gominer.md'
-- Privacy:
-  - 'General Privacy': 'privacy/general-privacy.md'
+      - 'Decrediton 安装': 'wallets/decrediton/decrediton-setup.md'
+      - '使用 Decrediton': 'wallets/decrediton/using-decrediton.md'
+      - '升级 Decrediton': 'wallets/decrediton/upgrading-decrediton.md'
+      - 'Trezor 硬件钱包': 'wallets/decrediton/trezor.md'
+      - '故障排查': 'wallets/decrediton/decrediton-troubleshooting.md'
+    - CLI 钱包:
+      - '安装': 'wallets/cli/cli-installation.md'
+      - '操作系统差异': 'wallets/cli/os-differences.md'
+      - '启动基础': 'wallets/cli/startup-basics.md'
+      - 'dcrd 安装': 'wallets/cli/dcrd-setup.md'
+      - 'dcrwallet 安装': 'wallets/cli/dcrwallet-setup.md'
+      - 'dcrctl 基础': 'wallets/cli/dcrctl-basics.md'
+      - '购票': 'wallets/cli/dcrwallet-tickets.md'
+      - 'dcrd和dcrwallet 命令行参数': 'wallets/cli/dcrd-and-dcrwallet-cli-arguments.md'
+      - 'dcrctl RPC 命令': 'wallets/cli/dcrctl-rpc-commands.md'
+    - '简单支付验证SPV': 'wallets/spv.md'
+    - '硬件钱包': 'wallets/hardware-wallets.md'
+    - '手机钱包': 'wallets/mobile-wallets.md'
+- POS 投票:
+  - "总览": 'proof-of-stake/overview.md'
+  - "如何投票": 'proof-of-stake/how-to-stake.md'
+  - "赎回脚本": 'proof-of-stake/redeem-script.md'
+  - "分票": 'proof-of-stake/ticket-splitting.md'
+- POW 挖矿:
+  - '总览': 'mining/overview.md'
+  - 'gominer 矿池挖矿': 'mining/proof-of-work/pool-mining/gominer.md'
+- 隐私:
+  - '常规隐私': 'privacy/general-privacy.md'
   - CoinShuffle++:
-    - 'Overview': 'privacy/cspp/overview.md'
-    - 'How to use CSPP': 'privacy/cspp/how-to-cspp.md'
-- Lightning Network:
-  - 'Overview': 'lightning-network/overview.md'
-  - 'Backups': 'lightning-network/backups.md'
-  - 'Watchtowers': 'lightning-network/watchtowers.md'
+    - '总览': 'privacy/cspp/overview.md'
+    - '如何使用 CSPP': 'privacy/cspp/how-to-cspp.md'
+- 闪电网络:
+  - '总览': 'lightning-network/overview.md'
+  - '备份': 'lightning-network/backups.md'
+  - '瞭望塔': 'lightning-network/watchtowers.md'
   - dcrlncli:
-    - 'Options and Commands': 'lightning-network/dcrlncli/options-and-commands.md'
-    - Autopilot Commands:
-      - 'autopilot': 'lightning-network/dcrlncli/autopilot.md'
-    - Channel Commands:
-      - 'openchannel': 'lightning-network/dcrlncli/openchannel.md'
-      - 'closechannel': 'lightning-network/dcrlncli/closechannel.md'
-      - 'closeallchannels': 'lightning-network/dcrlncli/closeallchannels.md'
-      - 'abandonchannel': 'lightning-network/dcrlncli/abandonchannel.md'
-      - 'channelbalance': 'lightning-network/dcrlncli/channelbalance.md'
-      - 'pendingchannels': 'lightning-network/dcrlncli/pendingchannels.md'
-      - 'listchannels': 'lightning-network/dcrlncli/listchannels.md'
-      - 'closedchannels': 'lightning-network/dcrlncli/closedchannels.md'
-      - 'getnetworkinfo': 'lightning-network/dcrlncli/getnetworkinfo.md'
-      - 'feereport': 'lightning-network/dcrlncli/feereport.md'
-      - 'updatechanpolicy': 'lightning-network/dcrlncli/updatechanpolicy.md'
-      - 'exportchanbackup': 'lightning-network/dcrlncli/exportchanbackup.md'
-      - 'verifychanbackup': 'lightning-network/dcrlncli/verifychanbackup.md'
-      - 'restorechanbackup': 'lightning-network/dcrlncli/restorechanbackup.md'
+    - '选项和命令': 'lightning-network/dcrlncli/options-and-commands.md'
+    - 自动驾驶命令:
+      - '自动驾驶': 'lightning-network/dcrlncli/autopilot.md'
+    - 通道命令:
+      - '开启通道': 'lightning-network/dcrlncli/openchannel.md'
+      - '关闭通道': 'lightning-network/dcrlncli/closechannel.md'
+      - '关闭所有通道': 'lightning-network/dcrlncli/closeallchannels.md'
+      - '废弃通道': 'lightning-network/dcrlncli/abandonchannel.md'
+      - '通道余额': 'lightning-network/dcrlncli/channelbalance.md'
+      - '等待通道': 'lightning-network/dcrlncli/pendingchannels.md'
+      - '列出通道': 'lightning-network/dcrlncli/listchannels.md'
+      - '已关闭的通道': 'lightning-network/dcrlncli/closedchannels.md'
+      - '获取网络信息': 'lightning-network/dcrlncli/getnetworkinfo.md'
+      - '费用报告': 'lightning-network/dcrlncli/feereport.md'
+      - '更新策略': 'lightning-network/dcrlncli/updatechanpolicy.md'
+      - '导出通道备份': 'lightning-network/dcrlncli/exportchanbackup.md'
+      - '验证通道备份': 'lightning-network/dcrlncli/verifychanbackup.md'
+      - '恢复通道备份': 'lightning-network/dcrlncli/restorechanbackup.md'
     - Graph Commands:
       - 'describegraph': 'lightning-network/dcrlncli/describegraph.md'
       - 'getnodemetrics': 'lightning-network/dcrlncli/getnodemetrics.md'
@@ -179,64 +179,64 @@ nav:
       - 'queryprob': 'lightning-network/dcrlncli/queryprob.md'
       - 'resetmc': 'lightning-network/dcrlncli/resetmc.md'
       - 'buildroute': 'lightning-network/dcrlncli/buildroute.md'
-    - Peer commands:
-      - 'connect': 'lightning-network/dcrlncli/connect.md'
-      - 'disconnect': 'lightning-network/dcrlncli/disconnect.md'
-      - 'listpeers': 'lightning-network/dcrlncli/listpeers.md'
-    - Startup commands:
-      - 'create': 'lightning-network/dcrlncli/create.md'
-      - 'unlock': 'lightning-network/dcrlncli/unlock.md'
-      - 'changepassword': 'lightning-network/dcrlncli/changepassword.md'
-    - Wallet commands:
-      - 'newaddress': 'lightning-network/dcrlncli/newaddress.md'
-      - 'walletbalance': 'lightning-network/dcrlncli/walletbalance.md'
-      - 'signmessage': 'lightning-network/dcrlncli/signmessage.md'
-      - 'verifymessage': 'lightning-network/dcrlncli/verifymessage.md'
-      - 'wallet': 'lightning-network/dcrlncli/wallet.md'
-    - Watchtower commands:
-      - 'tower': 'lightning-network/dcrlncli/tower.md'
-      - 'wtclient': 'lightning-network/dcrlncli/wtclient.md'
-- FAQ:
-  - 'General': 'faq/general.md'
-  - 'Configuration': 'faq/configuration.md'
-  - 'Wallets and Seeds': 'faq/wallets-and-seeds.md'
-  - 'Blocks': 'faq/blocks.md'
-  - 'Common Errors and Solutions': 'faq/errors.md'
-  - 'PoW': 'faq/proof-of-work-mining.md'
+    - 节点命令:
+      - '连接节点': 'lightning-network/dcrlncli/connect.md'
+      - '取消连接节点': 'lightning-network/dcrlncli/disconnect.md'
+      - '列出节点列表': 'lightning-network/dcrlncli/listpeers.md'
+    - 启动命令:
+      - '创建': 'lightning-network/dcrlncli/create.md'
+      - '解锁': 'lightning-network/dcrlncli/unlock.md'
+      - '更改密码': 'lightning-network/dcrlncli/changepassword.md'
+    - 钱包命令:
+      - '新地址': 'lightning-network/dcrlncli/newaddress.md'
+      - '钱包余额': 'lightning-network/dcrlncli/walletbalance.md'
+      - '签名消息': 'lightning-network/dcrlncli/signmessage.md'
+      - '验证消息': 'lightning-network/dcrlncli/verifymessage.md'
+      - '钱包': 'lightning-network/dcrlncli/wallet.md'
+    - 瞭望塔命令:
+      - '瞭望塔': 'lightning-network/dcrlncli/tower.md'
+      - '瞭望塔客户端': 'lightning-network/dcrlncli/wtclient.md'
+- 常见问题:
+  - '一般': 'faq/general.md'
+  - '配置': 'faq/configuration.md'
+  - '钱包和种子': 'faq/wallets-and-seeds.md'
+  - '区块': 'faq/blocks.md'
+  - '常见错误和解决方法': 'faq/errors.md'
+  - 'PoW挖矿': 'faq/proof-of-work-mining.md'
   - PoS:
-    - 'General': 'faq/proof-of-stake/general.md'
-    - 'Solo Voting': 'faq/proof-of-stake/solo-voting.md'
-    - 'Buying Tickets and Fees': 'faq/proof-of-stake/buying-tickets-and-fees.md'
-    - 'Voting Service Providers': 'faq/proof-of-stake/voting-service-providers.md'
-- Advanced:
-  - 'Manual CLI Installation': 'advanced/manual-cli-install.md'
-  - 'dcrtime': 'advanced/dcrtime.md'
-  - 'Verifying Binaries': 'advanced/verifying-binaries.md'
-  - 'Premine': 'advanced/premine.md'
-  - 'Issuance': 'advanced/issuance.md'
-  - 'Deleting Your Wallet': 'advanced/deleting-your-wallet.md'
-  - 'Navigating Politeia Data': 'advanced/navigating-politeia-data.md'
-  - 'Solo Proof-of-Stake (PoS) Voting': 'advanced/solo-proof-of-stake-voting.md'
-  - 'Operating a VSP': 'advanced/operating-a-vsp.md'
-  - 'Running a Full Node': 'advanced/full-node.md'
-  - 'Security': 'advanced/general-security.md'
-  - 'Atomic Swaps': 'advanced/atomic-swap.md'
-  - 'Decred Seed and BIP-0039': 'advanced/mnemonic-seed.md'
-- Research:
-  - 'Overview': 'research/overview.md'
-  - 'Hybrid Design': 'research/hybrid-design.md'
-  - 'Decentralized Stake Pooling': 'research/decentralized-stake-pooling.md'
-  - 'Elliptic Curve Signature Algorithms': 'research/elliptic-curve-signature-algorithms.md'
-  - 'BLAKE-256 Hash Function': 'research/blake-256-hash-function.md'
-  - 'Script Extensions': 'research/script-extensions.md'
-  - 'Signature Script Isolation and Fraud Proofs': 'research/signature-script-isolation-and-fraud-proofs.md'
-  - 'Block Production Times': 'research/block-production-times.md'
-  - 'Schnorr Signatures': 'research/schnorr-signatures.md'
-  - 'Miscellaneous Improvements': 'research/miscellaneous-improvements.md'
-- Contributing:
-  - 'Overview': 'contributing/overview.md'
-  - 'Contributor Compensation': 'contributing/contributor-compensation.md'
-- 'Glossary': 'glossary.md'
-- About:
-    - 'License': 'about/license.md'
-copyright: If you wish to improve this site, please <a href="https://github.com/decred/dcrdocs/issues/new">open an issue</a> or <a href="https://github.com/decred/dcrdocs/compare">send a pull request</a>.<br />dcrdocs v0.0.3. Decred Project 2020.
+    - '一般': 'faq/proof-of-stake/general.md'
+    - '独立投票': 'faq/proof-of-stake/solo-voting.md'
+    - '买票和费用': 'faq/proof-of-stake/buying-tickets-and-fees.md'
+    - '投票服务商': 'faq/proof-of-stake/voting-service-providers.md'
+- 高级:
+  - '手动 CLI 安装': 'advanced/manual-cli-install.md'
+  - 'dcrtime时间戳': 'advanced/dcrtime.md'
+  - '验证二进制文件': 'advanced/verifying-binaries.md'
+  - '预挖': 'advanced/premine.md'
+  - '发行': 'advanced/issuance.md'
+  - '删除钱包': 'advanced/deleting-your-wallet.md'
+  - 'Politeia导航数据': 'advanced/navigating-politeia-data.md'
+  - '独立POS投票': 'advanced/solo-proof-of-stake-voting.md'
+  - '部署投票服务池vsp': 'advanced/operating-a-vsp.md'
+  - '运行全节点': 'advanced/full-node.md'
+  - '安全': 'advanced/general-security.md'
+  - '跨链原子交换': 'advanced/atomic-swap.md'
+  - 'Decred和BIP-0039单词标准': 'advanced/mnemonic-seed.md'
+- 研究:
+  - '总览': 'research/overview.md'
+  - '混合设计': 'research/hybrid-design.md'
+  - '去中心化投票池': 'research/decentralized-stake-pooling.md'
+  - 'Elliptic Curve 签名算法': 'research/elliptic-curve-signature-algorithms.md'
+  - 'BLAKE-256 哈希函数': 'research/blake-256-hash-function.md'
+  - '脚本扩展': 'research/script-extensions.md'
+  - '签名脚本隔离和欺诈证据': 'research/signature-script-isolation-and-fraud-proofs.md'
+  - '区块产生时间': 'research/block-production-times.md'
+  - 'Schnorr 签名算法': 'research/schnorr-signatures.md'
+  - '多项改进': 'research/miscellaneous-improvements.md'
+- 贡献:
+  - '总览': 'contributing/overview.md'
+  - '贡献补偿': 'contributing/contributor-compensation.md'
+- '专有词汇表': 'glossary.md'
+- 关于:
+    - '许可': 'about/license.md'
+版权: If you wish to improve this site, please <a href="https://github.com/decred/dcrdocs/issues/new">open an issue</a> or <a href="https://github.com/decred/dcrdocs/compare">send a pull request</a>.<br />dcrdocs v0.0.3. Decred Project 2020.
