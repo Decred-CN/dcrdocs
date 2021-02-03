@@ -2,11 +2,11 @@
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> Overview
+## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> 总览
 
 This article discusses some of the ways a user can acquire Decred.
 
-The five basic ways are:
+这五个基本的方法是:
 
 * Purchase Decred using BTC or fiat currency
 * PoW mine for Decred
@@ -16,7 +16,7 @@ The five basic ways are:
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/PurchasingDCR.svg" /> Purchasing Decred
+## <img class="dcr-icon" src="/img/dcr-icons/PurchasingDCR.svg" /> 购买 Decred
 
 There is a variety of ways to purchase Decred listed on the [Decred website](https://decred.org/exchanges/).
 
@@ -26,7 +26,7 @@ There is a variety of ways to purchase Decred listed on the [Decred website](htt
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/PoWMine.svg" /> Mine for Decred (PoW)
+## <img class="dcr-icon" src="/img/dcr-icons/PoWMine.svg" /> 挖矿获得 Decred (PoW)
 
 Proof-of-Work (PoW) is a measure of using computational power to create and verify the cryptographically secure blockchain.  This is similar to traditional Bitcoin mining. PoW mining is described in more detail [here](../mining/overview.md).
 
