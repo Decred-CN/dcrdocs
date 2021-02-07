@@ -1,102 +1,88 @@
-# <img class="dcr-icon" src="/img/dcr-icons/Flag.svg" /> Beginner's Guide
+# <img class="dcr-icon" src="/img/dcr-icons/Flag.svg" /> 新手指导
 
 ---
 
-## Welcome To Decred
+## 欢迎来到 Decred 项目
 
-This guide offers signposts to some useful resources, including how to set up your Decred wallet, buy DCR, participate in Decred’s governance, connect with the community and contribute to the project (contributors welcome!).
+这份指南提供了一些十分帮助的教程，包括如何设置Decred钱包，购买DCR，参与Decred的治理，与社区联系并为该项目做出贡献（欢迎贡献者！）。
 
 ## Wallets
 
-[Decrediton](../wallets/decrediton/decrediton-setup.md) is Decred's GUI wallet
-for Windows, MacOS and Linux.
-It supports voting through [Voting Service Providers](https://decred.org/vsp/)
-and offers the easiest way to start buying tickets and participating in
-governance.
+[Decrediton](../wallets/decrediton/decrediton-setup.md)是Decred为Windows、 MacOS和Linux设计的GUI图形化界面钱包。
+它支持通过 [投票服务商VSP](https://decred.org/vsp/)投票并且提供了一个简便的方式购票和参与治理。
 
-There is also a [Command Line Interface (CLI)](../wallets/cli/cli-installation.md) for
-Windows, MacOS and Linux.
-The CLI exposes more advanced functionality, including the ability to run a
-personal voting wallet.
+Decred也提供为Windows、 MacOS和Linux设计的命令行CLI钱包[命令行CLI](../wallets/cli/cli-installation.md)，CLI提供了更多高级功能，包括运行个人投票钱包（Solo投票）。
 
-Decred is supported by [Trezor](https://trezor.io/) and
-[Ledger](https://www.ledger.com/), two popular
-[hardware wallet](../wallets/hardware-wallets.md) implementations.
+Decred支持几款流行的硬件钱包，包括[Trezor](https://trezor.io/)和[Ledger](https://www.ledger.com/)，其他硬件钱包产品参考
+[硬件钱包](../wallets/hardware-wallets.md)。
 
-[Mobile wallets](../wallets/mobile-wallets.md) for Android and iOS are also
-available.
-To minimize data plan, processing power and storage requirements, the mobile
-wallets make use of [SPV mode](../wallets/spv.md).
+Decred也提供了基于Android和iOS平台的[手机钱包](../wallets/mobile-wallets.md)。为了尽量节省手机套餐流量，处理能力和存储要求，手机钱包使用[SPV模式](../wallets/spv.md)。
 
-## General Guides
+## 通用指南
 
-The following guides go into depth on key aspects of the Decred experience:
+下面的指南可以深入地了解Decred体验的几个关键方面：
 
-* [Obtaining DCR](obtaining-dcr.md)
-* [Developer documentation](https://devdocs.decred.org/)
-* [Using the Block Explorer](using-the-block-explorer.md)
-* [Governance](../governance/overview.md)
-* [Ticket buying guide](../proof-of-stake/overview.md)
-* [Politeia](../governance/politeia/overview.md)
-* [Voting on consensus rules changes](../governance/consensus-rule-voting/overview.md)
-* [Using Testnet](https://devdocs.decred.org/environments/testnet/)
+* [获得DCR](obtaining-dcr.md)
+* [开发文档](https://devdocs.decred.org/)
+* [使用区块浏览器](using-the-block-explorer.md)
+* [治理](../governance/overview.md)
+* [购票指导](../proof-of-stake/overview.md)
+* [Politeia提案系统](../governance/politeia/overview.md)
+* [共识投票变更](../governance/consensus-rule-voting/overview.md)
+* [使用测试网](https://devdocs.decred.org/environments/testnet/)
 
-## Information
+## 资讯
 
-### Network Stats
+### 网络状态
 
 * [stats.decred.org](https://stats.decred.org/)
 
-### Block Explorers
+### 区块浏览器
 
 * [dcrdata.decred.org](https://dcrdata.decred.org/)
 * [mainnet.decred.org](https://mainnet.decred.org/)
 
-### News/Articles
+### 新闻/文章
 
-* [Decred Journal](https://xaur.github.io/decred-news/) - Comprehensive monthly newsletter maintained by some community members
-* [Decred.org blog](https://blog.decred.org)
-* [Decred Medium](https://medium.com/decred) - Curated content from community members
-* [Press coverage/releases](https://decred.org/press/)
-* [The Decred Digest](https://thedecreddigest.org/) - Community blog
-* [Decred-Canon](https://github.com/maxbron08/Decred-Canon/) - A collection of readings and resources on Decred.
+* [Decred月报](https://xaur.github.io/decred-news/) - 由一些社区成员维持的全面的月报
+* [Decred.org博客](https://blog.decred.org)
+* [Decred Medium](https://medium.com/decred) - 策划来自社区成员的内容
+* [新闻报道/发布](https://decred.org/press/)
+* [Decred摘要](https://thedecreddigest.org/) - 社区博客
+* [Decred卡通](https://github.com/maxbron08/Decred-Canon/) - 关于Decred的阅读资料和资源集合。
 
-### Video
+### 视频
 
 * [Decred Youtube channel](https://www.youtube.com/decredchannel)
 
-## Community
+## 社区
 
-In addition to the [Politeia proposals site](https://proposals.decred.org), the Decred community can be found on a [variety of platforms](https://decred.org/community/).
+除了[Politeia 提案平台](https://proposals.decred.org), 可以通过[多平台](https://decred.org/community/)找到Decred社区。
 
-### Chat
+### 聊天室
 
-The following chat platforms are bridged, such that one's messages are relayed
-to users on the other platforms:
+以下聊天平台是信息互通的，这样一个人的消息就被转发了其他的聊天平台
+其他平台上的用户：
 
 * [Matrix](https://chat.decred.org/)
 * [Discord](https://discord.gg/GJ2GXfz)
 
-[Telegram](https://t.me/decred) is partially bridged. Messages from Telegram are
-relayed to the `DCR 101` channel on Matrix.
+[Telegram电报](https://t.me/decred)是部分互通的。电报平台的消息将同步到Matrix的`DCR 101`频道。
 
-Note that DMs and private channels cannot be bridged. In order to DM another
-user you must both be using the same chat platform.
+注意：私信和私有通道不能桥接。要私信其他人你必须使用相同的聊天平台。
 
-### Social Media
+### 社交媒体
 
 * [Reddit](https://www.reddit.com/r/decred)
-* [Twitter](https://twitter.com/decredproject) - Account operated by small group of contributors
+* [Twitter](https://twitter.com/decredproject) - 由少数贡献者操作的帐户
 * [Facebook](https://facebook.com/decredproject)
 * [Weibo](https://weibo.com/DecredProject)
-* [LinkedIn](https://www.linkedin.com/company/decredproject/) - Account operated by small group of contributors
+* [LinkedIn](https://www.linkedin.com/company/decredproject/) - 由少数贡献者操作的帐户
 
-### Code
+### 代码
 
-Code for a variety of software projects lives on [GitHub](https://github.com/decred). Issues can be used to report bugs or suggest features. Pull Requests can be issued to merge work into the main repository branch.
+各种软件项目的代码仍然保存在[GitHub](https://github.com/decred)。github issues可以用来报告bug或建议特性。可以发出Pull请求，将代码合并到主存储库分中。
 
-See the [developer documentation](https://devdocs.decred.org/) for more information on various projects, technical documentation and developer-specific contribution guidelines.
+### 加入
 
-### Contributing
-
-Decred is always looking for new contributors. A basic outline of how this works is: Show up, Find something useful to do, Do it, Get Paid. Do a small bit at first and see if other contributors in that domain appreciate it. For details, see  [contributing to Decred](../contributing/overview.md).
+Decred一直在寻找新的贡献者。它的基本原理是:出现，找到一些有用的事情去做，去做，得到报酬。一开始做一点，看看该领域的其他贡献者是否欣赏它。更多细节请参考[加入Decred](../contributing/overview.md)。

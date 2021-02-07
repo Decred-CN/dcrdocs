@@ -1,30 +1,30 @@
-# Overview
+# 总览
 
 ---
 
-## <img class="dcr-icon" alt="Decred logo" src="/img/dcr-icons/DCRsymbol.svg" /> What is Decred?
-Decred (/ˈdi:ˈkred/, /dɪˈkred/, dee-cred) is a blockchain-based cryptocurrency with a strong focus on community input, open governance, and sustainable funding for development. It utilizes a hybrid Proof-of-Work (PoW) and Proof-of-Stake (PoS) mining system to ensure that a small group cannot dominate the flow of transactions or make changes to Decred without the input of the community. A unit of the currency is called a decred (DCR).
+## <img class="dcr-icon" alt="Decred logo" src="/img/dcr-icons/DCRsymbol.svg" /> Decred 是什么？
+Decred (/ˈdi:ˈkred/, /dɪˈkred/, dee-cred) 是一种基于区块链的加密货币，重点关注社区投入，开放治理和可持续发展资金。 它利用POW和POS混合系统去确保小部分人不能有确保一小部分人在没有社区参与的情况下不能主导交易流程或对Decred进行更改。货币单位称为decred (DCR)。
 
 ---
 
-## How Does it Work?
-Stakeholders make and enforce the blockchain's consensus rules, set a course for future development, and decide how the project's treasury is used to fund it. Decred's blockchain is similar to Bitcoin's, but with major aspects of [governance](governance/overview.md) baked into the protocol. 
+## 它是如何运作的？
+利益相关者制定并执行区块链的共识规则，为未来的发展设定方向,并确定如何使用项目的基金来为其提供资金。 Decred的区块链和Bitcoin相似，但是将最重要的[治理](governance/overview.md)融入到协议中。
 
-To align incentives, block rewards are split between Proof-of-Work (PoW) miners, stakeholders and the Decred Treasury, which funds the project. 
+为了调整激励措施，区块奖励在PoW矿工, 利益相关者和自我筹集资金的Decred国库之间分配。
 
-Subsidy | Party
+供应 | 组织
 ---     | ---
-60%   | PoW Miners
-30%   | PoS Voters
-10%   | Decred Treasury
+60%   | PoW 矿工
+30%   | PoS 投票人
+10%   | Decred 国库
 
-[Proof of Work](mining/overview.md) miners play a similar role for Decred as they do for Bitcoin, but with Decred they only receive 60% of the block reward.
+[工作量证明PoW](mining/overview.md) 矿工扮演了一个类似比特币的角色，但是在Decred项目中POW矿工仅能获得60%的区块奖励。
 
-[Proof of Stake](proof-of-stake/overview.md) voting is central to Decred's governance. Decred holders can time-lock (or "stake") DCR to obtain voting tickets. Tickets are randomly called to vote on-chain; this involves both approving the work of PoW miners and voting Yes/No on any open [rule change proposals](governance/consensus-rule-voting/overview.md). 30% of the block reward goes to the holders of the tickets that voted in that block.
+[权益证明PoS](proof-of-stake/overview.md) 投票是Decred治理的核心。Decred持有人可以锁定（或者“下注”）DCR去获得投票，票被链上随机投出；这涉及到批准PoW矿工并且在任何共识规则[共识规则变更](governance/consensus-rule-voting/overview.md)参与是/否投票。30%的区块奖励会给与到投票到对应区块的投票持有人。
 
-The remaining 10% of the block reward goes into the [Decred Treasury](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx). Holders of live tickets decide how that treasury is used through [Politeia proposals and voting](governance/politeia/overview.md).
+其余的10%区块奖励将进入[Decred 国库](https://dcrdata.decred.org/address/Dcur2mcGjmENx4DhNqDctW5wJCVyT3Qeqkx)。live状态的投票持有人将在[Politeia提案投票平台](governance/politeia/overview.md)决定如何使用国库资金.
 
-The [Decred Constitution](governance/decred-constitution.md) sets out some guiding principles for the project; the constitution is subject to amendment through Politeia proposals.
+[Decred 宪法](governance/decred-constitution.md)制定该项目的一些指导原则；宪法可以通过Politeia提案进行修改。
 
 
 
