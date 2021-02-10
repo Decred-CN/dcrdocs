@@ -4,25 +4,25 @@
 
 ## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> 总览
 
-This article discusses some of the ways a user can acquire Decred.
+本文讨论用户获取Decred的几种方法。
 
 这五个基本的方法是:
 
-* Purchase Decred using BTC or fiat currency
-* PoW mine for Decred
-* Participate in proof-of-stake voting
-* Contribute to Decred
-* Sell or trade goods or services with someone who already has Decred
+* 使用BTC或者法币购买Decred
+* 通过PoW挖矿获得Decred
+* 参加POS股权证明投票
+* 为Decred做出贡献
+* 向持有Decred的人出售商品或服务获得Decred
 
 ---
 
 ## <img class="dcr-icon" src="/img/dcr-icons/PurchasingDCR.svg" /> 购买 Decred
 
-There is a variety of ways to purchase Decred listed on the [Decred website](https://decred.org/exchanges/).
+这里列出了几种购买Decred的途径[Decred 官网](https://decred.org/exchanges/).
 
-* Cryptocurrency exchanges enable swapping another cryptocurrency for Decred
-* Direct exchanges allow Decred to be purchased with fiat currency
-* OTC (Over The Counter) traders allows large purchases of Decred at a fixed price
+* 通过加密货币交换可将另一种加密货币交换为Decred
+* 直接交易可以通过法币购买Decred
+* OTC (Over The Counter) 交易允许使用固定的价格购买大量Decred
 
 ---
 
@@ -32,13 +32,13 @@ Proof-of-Work (PoW) is a measure of using computational power to create and veri
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/TicketVoted.svg" /> Participate in Proof-of-Stake Voting
+## <img class="dcr-icon" src="/img/dcr-icons/TicketVoted.svg" /> 参加POS股权证明投票
 
 Proof-of-Stake (PoS) voting is performed by stakeholders who lock a certain amount of their DCR in return for voting rights and a monetary reward. PoS voting is described in more detail [here](../proof-of-stake/overview.md).
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Credits.svg" /> Contribute to Decred
+## <img class="dcr-icon" src="/img/dcr-icons/Credits.svg" /> 为Decred做出贡献
 
 Decred is currently recruiting contractors - members of the community who are paid in Decred for their contributions. Check out [Contributing](../contributing/overview.md) section for details and how to get involved.
 

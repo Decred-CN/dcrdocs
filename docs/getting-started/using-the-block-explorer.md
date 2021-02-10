@@ -1,8 +1,8 @@
-# <img class="dcr-icon" src="/img/dcr-icons/BlockExplorer.svg" /> Using the Block Explorer
+# <img class="dcr-icon" src="/img/dcr-icons/BlockExplorer.svg" /> 使用区块浏览器
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> Overview
+## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> 总览
 
 All blocks and transactions on the Decred blockchain
 are visible through the use of the block explorer, [dcrdata](https://github.com/decred/dcrdata).
