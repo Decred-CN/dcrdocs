@@ -4,7 +4,7 @@
 
 ## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> 总览
 
-本文讨论用户获取Decred的几种方法。
+本文讨论用户获取Decred的几种途径。
 
 这五个基本的方法是:
 
@@ -28,24 +28,24 @@
 
 ## <img class="dcr-icon" src="/img/dcr-icons/PoWMine.svg" /> 挖矿获得 Decred (PoW)
 
-Proof-of-Work (PoW) is a measure of using computational power to create and verify the cryptographically secure blockchain.  This is similar to traditional Bitcoin mining. PoW mining is described in more detail [here](../mining/overview.md).
+工作量证明(PoW)是一种使用计算能力来创建和验证加密安全区块链的措施，这类似于传统的比特币挖矿。PoW挖掘的详细描述 [这里](../mining/overview.md)。
 
 ---
 
 ## <img class="dcr-icon" src="/img/dcr-icons/TicketVoted.svg" /> 参加POS股权证明投票
 
-Proof-of-Stake (PoS) voting is performed by stakeholders who lock a certain amount of their DCR in return for voting rights and a monetary reward. PoS voting is described in more detail [here](../proof-of-stake/overview.md).
+股权证明(PoS)投票由利益相关者执行，这些利益相关者锁定一定数量的DCR，以换取投票权和金钱奖励。 PoS投票的详细描述 [这里](../proof-of-stake/overview.md)。
 
 ---
 
 ## <img class="dcr-icon" src="/img/dcr-icons/Credits.svg" /> 为Decred做出贡献
 
-Decred is currently recruiting contractors - members of the community who are paid in Decred for their contributions. Check out [Contributing](../contributing/overview.md) section for details and how to get involved.
+Decred当前正在招募承包商-社区成员，以Decred的贡献获得报酬。详细描述以及如何参与请查看[贡献](../contributing/overview.md)章节。
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/SellGoods.svg" /> Sell/Trade Goods or Services for Decred
+## <img class="dcr-icon" src="/img/dcr-icons/SellGoods.svg" /> 出售/交易商品或服务获取Decred
 
-If you are an online merchant, there are some payment processors listed on the [Decred website](https://decred.org/exchanges/) which can help you accept Decred payments. Some of these payment processors can also provide integration with major e-commerce platforms.
+如果您是在线商家,[Decred 官网](https://decred.org/exchanges/)有一些付款处理程序可以帮助你接受Decred支付。这些支付处理器中的一些还可以提供与主要电子商务平台的集成。
 
-An alternative way to obtain Decred is to use your skills, knowledge, or experience by exchanging services for Decred as payment.  Services can be anything that you are skilled at which are in need or requested by other members of the Decred community.
+获得Decred的另一种方法是通过将服务交换为Decred作为付款来使用您的技能，知识或经验。服务可以是Decred社区的其他成员需要或要求的任何您擅长的技术。
