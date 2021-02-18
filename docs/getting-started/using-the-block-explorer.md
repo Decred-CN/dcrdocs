@@ -4,7 +4,7 @@
 
 ## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> 总览
 
-在Decred区块链中通过区块浏览器可以查看所有的区块和交易，[dcrdata](https://github.com/decred/dcrdata)。
+在Decred区块链中通过区块浏览器可以查看所有的区块和交易[dcrdata](https://github.com/decred/dcrdata)。
 
 dcrdata的公共服务可用于以下网络：
 
@@ -34,26 +34,26 @@ dcrdata的公共服务可用于以下网络：
 区块概述的上半部分显示了有关此区块的相关信息。
 这些信息包含： 此区块高度编号、区块哈希值和几个网络关键参数，详细描述如下：
 
-Option                   | Explanation
+选项                   | 解释
 ---                      | ---
-`Number of Transactions` | The number of standard transactions (DCR sent from one user to another).
-`Height`                 | The height of the blockchain in which this block resides.
-`Block Reward`           | The amount of new DCR minted in this block.
-`Timestamp`              | The time this block was created by a miner and was included in the blockchain.
-`Merkle Root`            | A hash value of all the transaction hashes included in this block.
-`Stake Root`             | A hash value of all the stake related transaction hashes in this block. This includes ticket purchases, votes, and ticket revocations.
-`VoteBits`               | (1) Block was approved by proof-of-stake voters. (2) Block was vetoed by proof-of-stake voters and all non-stake transactions in the block were invalidated, along with the newly generated block reward for the proof-of-work miner and the Decred Treasury.
-`Final State`            | The final state of the pseudo random number generator used for ticket selection.
-`Voters`                 | The number of successful proof-of-stake votes cast in this block. The maximum value is 5.
-`Fresh Stake`            | The number of stake ticket purchases confirmed in this block.
-`Revocations`            | The number of tickets that failed to vote and were revoked.
-`PoolSize`               | The total number of active proof-of-stake tickets.
-`Difficulty`             | The proof-of-work network difficulty.
-`SBits`                  | The price of one proof-of-stake ticket.
-`Bits`                   | A compact version of the network difficulty at the time the block was mined.
-`Size`                   | The size of the block (in bytes).
-`Version`                | The version of the block.
-`Nonce`                  | The value used by a miner to find the correct solution for this block.
+`Number of Transactions` | 标准交易数量 (DCR从一个用户发送到另一个用户)。
+`Height`                 | 这个区块在区块链的位置（高度）。
+`Block Reward`           | 这个区块铸造出的新DCR的数量。
+`Timestamp`              | 区块被矿工挖出并添加到区块链的时间。
+`Merkle Root`            | 包含此区块的所有交易的哈希值。
+`Stake Root`             | 包含此区块的所有投票交易的哈希值。包含了买票、投票和撤回票。
+`VoteBits`               | (1) 区块被POS投票人批准。 (2) 区块被POS投票人否决并且该区块中包含的所有非投票交易以及针对工作量证明矿工和Decred国库的新生成区块奖励均是无效的。
+`Final State`            | 票证选择的伪随机数生成器的最终状态。
+`Voters`                 | 此区块中成功进行的POS投票的数量，最大值是5。
+`Fresh Stake`            | 此区块中购买选票被确认的数量。
+`Revocations`            | 投票失败和被撤销的选票数量。
+`PoolSize`               | 所有活跃POS选票的总量。
+`Difficulty`             | POW网络挖矿难度。
+`SBits`                  | 一张POS选票的价格。
+`Bits`                   | 区块被挖出时的网络难度的紧凑版本。
+`Size`                   | 区块的大小(单位bytes)。
+`Version`                | 区块的版本。
+`Nonce`                  | 矿工用来打包区块的正确解决方案的值。
 
 ## <img class="dcr-icon" src="/img/dcr-icons/Transactions.svg" /> 交易
 
@@ -66,30 +66,27 @@ Option                   | Explanation
 
 ### 标准交易
 
-Here’s the information included in standard Decred transactions.
+标准Decred交易信息说明：
 
-Option              | Explanation
+选项              | 解释
 ---                 | ---
-`Size`              | The size of the transaction in bytes.
-`Fee rate`          | The rate of fees collected by the network (per kB).
-`Received Time`     | The time the network confirmed the transaction.
-`Mined Time`        | The time a miner included the transaction in a block.
-`Included in Block` | The block number that the transaction became a part of.
+`Size`              | 交易大小（单位bytes）。
+`Fee rate`          | 网络手续费（每kB）。
+`Received Time`     | 网络确认的时间。
+`Mined Time`        | 矿工将交易打包的时间。
+`Included in Block` | 包含此交易的区块编号。
 
-Note `Received Time`, `Mined Time`, and `Included in Block` will not have a value until a miner validates the transaction and includes it in a Decred block. After being confirmed in a block, the transaction is considered complete.
+注意 `Received Time（接受时间）`, `Mined Time（打包时间）`, and `Included in Block（区块包含）`在矿工验证并包含到decred区块之前是空值，在交易被一个区块确认，交易被认为是完成了。
 
 
 ---
 
 ### <img class="dcr-icon" src="/img/dcr-icons/TicketLive.svg" /> 购票交易
 
-For a ticket purchase (stake submission) there are a few differences
-from a standard transaction shown.
+购票交易和标准交易有几处不同之处。
 
-Note the difference under details: The word `Ticket` appears above the
-sender's wallet address on the left, and the words `Subsidy
-Commitment` appear on the right. This particular user purchased a
-stake ticket for 8.75411638 DCR and received change in the amount
+注意细微的差别： 这个词`Ticket`出现在发送者钱包地址左侧，然后这个词`SubsidyCommitment`出现在右侧，
+This particular user purchased a stake ticket for 8.75411638 DCR and received change in the amount
 of 7.15994209 DCR. The address listed on the left under `Ticket` is
 the address that contains the funds used to purchase this
 ticket. The first output on the right is the address that retains
