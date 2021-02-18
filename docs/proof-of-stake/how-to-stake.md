@@ -1,10 +1,10 @@
-# <img class="dcr-icon" src="/img/dcr-icons/QuestionTicket.svg" /> How to Stake/Vote
+# <img class="dcr-icon" src="/img/dcr-icons/QuestionTicket.svg" /> 如何下注/投票
 
 ---
 
-## How to Stake/Vote
+## 如何下注/投票
 
-There are two ways to stake/vote: solo staking and staking using a VSP. The former method is usually more appropriate for advanced users as it requires your wallet to be up 24/7. Running your own always-online wallet is known as **"Solo" Voting**.
+有两种可以下注/投票的方式： solo staking and staking using a VSP. The former method is usually more appropriate for advanced users as it requires your wallet to be up 24/7. Running your own always-online wallet is known as **"Solo" Voting**.
 
 **Voting Service Providers (VSPs)** (formerly "Stakepools") are available for those unable to keep a personal voting wallet online. Using a VSP is completely safe; the Decred PoS protocol allows you to delegate your vote to a VSP's always-online wallet without ever giving the VSP access to your funds.
 
