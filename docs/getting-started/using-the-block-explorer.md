@@ -86,10 +86,8 @@ dcrdata的公共服务可用于以下网络：
 购票交易和标准交易有几处不同之处。
 
 注意细微的差别： 这个词`Ticket`出现在发送者钱包地址左侧，然后这个词`SubsidyCommitment`出现在右侧，
-This particular user purchased a stake ticket for 8.75411638 DCR and received change in the amount
-of 7.15994209 DCR. The address listed on the left under `Ticket` is
-the address that contains the funds used to purchase this
-ticket. The first output on the right is the address that retains
+一个特点的用户花费8.75411638 DCR购买一张选票并且收到7.15994209 DCR找零。这个地址位于左侧在`Ticket`之下的是用于买票所花费的资金。
+The first output on the right is the address that retains
 voting rights for this specific ticket. The second output, `Subsidy
 Commitment`, is the address where the reward will go. This is not yet
 shown by the block explorer at this time. The third and final output
