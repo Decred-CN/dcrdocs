@@ -3,7 +3,7 @@
 ---
 
 ## <img class="dcr-icon" alt="Decred logo" src="/img/dcr-icons/DCRsymbol.svg" /> Decred 是什么？
-Decred (/ˈdi:ˈkred/, /dɪˈkred/, dee-cred) 是一种基于区块链的加密货币，重点关注社区投入，开放治理和可持续发展资金。 它利用POW和POS混合系统去确保小部分人不能有确保一小部分人在没有社区参与的情况下不能主导交易流程或对Decred进行更改。货币单位称为decred (DCR)。
+Decred (/ˈdi:ˈkred/, /dɪˈkred/, dee-cred) 是一种基于区块链的加密货币，重点关注社区投入，开放治理和可持续发展资金。 它利用POW和POS混合系统去确保少数人不能在没有社区投入的情况下支配交易流程或对Decred进行更改。货币单位称为decred (DCR)。
 
 ---
 
