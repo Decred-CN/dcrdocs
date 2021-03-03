@@ -1,22 +1,22 @@
-# Simple Payment Verification (SPV)
+# 简单支付验证（SPV）
 
 ---
 
-## What is SPV?
+## 什么是简单支付验证（SPV）？
 
-Simple Payment Verification (SPV) allows the use of a Decred wallet without having to download the entire Decred blockchain. A wallet operating in SPV mode only needs to download full blocks containing transactions relevant to it (i.e. transactions involving the wallet’s addresses). In a typical case, this means downloading tens of megabytes, rather than multiple gigabytes. This reduces the wallet's hardware requirements and greatly reduces the initial load time for new wallets.
+简单支付验证（SPV）可以让Decred钱包不必去下载全部的Decred区块账本。SPV模式下运行的钱包只需要下载包含与之相关的交易的完整区块（也就是说：包含钱包地址的交易)。一般情况下， 这意味着下载几十MB的数据，而不是几个GB的数据。这减少了钱包的硬件要求并且大大减少了新钱包初始化的时间。
 
-SPV has been built directly into the dcrwallet CLI tool — what Decredition and other official wallets use behind the scenes — so all users of official wallets are able to enable SPV.
+SPV模式被直接集成到dcrwallet命令行工具中 - Decredition 和 其他官方钱包后台使用的 - 因此所有官方钱包的用户都可以开启简单支付验证（SPV）。
 
-## Why was SPV added to `dcrwallet`?
+## 为什么SPV模式被加入到了`dcrwallet`中？
 
-The hardware requirements to run a Decred wallet are drastically reduced when operating in SPV mode. Storage and download requirements are reduced because rather than downloading the whole blockchain, an SPV wallet will only download the blocks which contain relevant transactions, and for all of the other blocks in the chain only the headers are downloaded. The amount of processing power required is reduced because a device running an SPV wallet will only validate the proof-of-work and the header chain rather than validating every transaction in every block and ensuring the block contents are consistent with the headers.
+运行在SPV模式的钱包对硬件要求极低， 比起下载整个区块账本，磁盘占用和下载要求减少，一个SPV钱包只下载和它有关的交易的区块，并且区块链中剩余其他的区块只下载区块头。因为运行在SPV模式下的钱包的硬件仅验证工作量证明和区块链头部而不是验证区块里的每一笔交易来确保区块内容和区块头一致。
 
-As a result of these decreased requirements, Decred wallets can operate on a wider set of devices - particularly mobile devices. Smartphones and tablets are typically limited in at least one of CPU power, storage or download capacity, and mobile operating systems limit the amount of background work processing each application can perform, which makes running a full node either impractical or impossible.
+由于这些减少的要求，Decred钱包可以在更广泛的设备上运行 - 特别是移动钱包。通常智能手机和平板的会受到限制诸如CPU功耗，存储或数据流量的限制，并且手机操作系统还限制后台运行程序，这使得运行一个全节点基本不可能。
 
-Another benefit offered by SPV is an extreme reduction in the time required for a brand new wallet to become operational, offering a huge improvement to the user experience.
+SPV模式带来的另一个好处就是极大地减少了全新钱包投入使用所需的时间，用户体验得到显著的提升。
 
-## How does SPV work?
+## SPV模式如何工作的？
 
 At the start of every block added to the Decred blockchain is 180 bytes of data called the [block header](https://devdocs.decred.org/developer-guides/block-header-specifications/). The block header describes key information about the block including the hash of the block, the Merkle root (the sum of all the transaction hashes in the block), and the nonce calculated by the proof-of-work miners. A predetermined filter is also created for every block, based on the all of the transactions within the block.
 
