@@ -2,7 +2,7 @@
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> 总览
+## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> 概要
 
 本文讨论用户获取Decred的几种途径。
 

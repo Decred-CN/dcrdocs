@@ -2,7 +2,7 @@
 
 ---
 
-## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> 总览
+## <img class="dcr-icon" src="/img/dcr-icons/Info.svg" /> 概要
 
 在Decred区块链中通过区块浏览器可以查看所有的区块和交易[dcrdata](https://github.com/decred/dcrdata)。
 
